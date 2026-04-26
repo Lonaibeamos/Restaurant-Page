@@ -1,3 +1,5 @@
+//about.js
+
 import about from './About.jpg';
 
 export function renderAbout(){

@@ -1,3 +1,4 @@
+//index.js
 import './style.css';
 import { loadH1,renderHome } from './home.js';
 import { renderMenu } from './menu.js';

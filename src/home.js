@@ -1,3 +1,4 @@
+//home.js
 import Home from './home.jpg';
 export function loadH1(){
 const h1 = document.createElement('h1');
