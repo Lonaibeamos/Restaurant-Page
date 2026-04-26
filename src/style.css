@@ -1,0 +1,50 @@
+
+body{
+    margin:-70px auto;
+    width: 800px;
+    height: 800px;
+    background: url('./restaurant.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-x;
+}
+div#content{
+    color: white;
+    margin: -70px 150px;
+    width: 100%;
+    opacity: 1;
+}
+nav{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+    width: 500px;
+    height: 50px;
+    margin: 100px auto;
+    opacity: 0.9;
+
+}
+nav > *{
+    background: salmon;
+    color: aliceblue;
+        border-radius: 100px;
+        font-weight: 700;
+
+}
+nav:hover{
+    opacity: 0.8;
+}
+
+.home{
+    width: 70;
+    height: 100%
+}
+
+div img{
+    width: 70%;
+    height: 602px;
+}
+
+img:hover{
+    opacity: 1;
+}
